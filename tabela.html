@@ -5,61 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-table {
+    table {
+        border-collapse: collapse;
+        width: 100%;
     font-family: Arial, Helvetica, sans-serif
+
 }
 
         /* para aplicar a mesma rormatação para tags diferentes, separar por virgula (,) */
         th/* , td */ {
-            border: 1px solid black;
+            border: 1px solid white;
+            padding: 8px;
             background-color: black;
-            color: white;
+            color:white
             
         }
         /* Para aplicar formatação diferente, usar a tag com nova formatação */
         td {
-            border: 1px solid red;
+            border: 1px solid black;
+            background-color: white;
+            color: black
         }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Melhores Filmes Rafael</h1>
+    <h1 style="text-align: left;">Tabela De Notas dos Alunos</h1>
 
     <table>
     <tr>
-        <th>Posição</th>
-        <th>Filme</th>
-        <th>Avaliação</th>
-        <th>Categoria</th>
+        <th>Nome</th>
+        <th>Matemática</th>
+        <th>Português</th>
+        <th>História</th>
+        <th>Geografia</th>
     </tr>
     <tr>
-        <td>1</td>
-        <td>O Poderoso Chefão</td>
+        <td>Ana</td>
+        <td>8.5</td>
+        <td>9.0</td>
+        <td>7.5</td>
+        <td>8.0</td>
+    </tr>
+    <tr>
+        <td>Bruno</td>
+        <td>7.0</td>
+        <td>6.5</td>
+        <td>8.0</td>
+        <td>6.5</td>
+    </tr>
+    <tr>
+        <td>Carla</td>
         <td>9.5</td>
-        <td>Drama</td>
+        <td>8.0</td>
+        <td>7.0</td>
+        <td>6.5</td>
     </tr>
-    <tr>
-        <td>2</td>
-        <td>Círculo de fogo</td>
-        <td>9.8</td>
-        <td>Ficção Científica</td>
     </tr>
-    <tr>
-        <td>3</td>
-        <td>Até o Ultimo Homem</td>
-        <td>9.9</td>
-        <td>Ação</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Missão Impossivel</td>
-        <td>9.7</td>
-        <td>Ação</td>
-    </tr>
-    <!-- <tr>Posição</tr>
-        <tr>Filme</tr>
-        <tr>Avaliação</tr>
-        <tr>Categoria</tr>-->
+    <!-- <tr>Nome</tr>
+        <tr>Matemática</tr>
+        <tr>Português</tr>
+        <tr>História</tr>
+        <tr>Geografia</tr>-->
     </table>
 </body>
 </html>
